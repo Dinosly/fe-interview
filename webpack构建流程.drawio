@@ -1,9 +1,21 @@
-<mxfile host="app.diagrams.net" modified="2023-08-01T07:52:29.082Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.6.3" etag="-Dm5Der_75hEIylPgq-L" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-01T07:55:09.402Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="WBOaIsRWYpRhg-4lDeOG" version="21.6.3" type="github">
   <diagram name="第 1 页" id="b9uePaPtiYxl_nF850o6">
-    <mxGraphModel>
+    <mxGraphModel dx="1259" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zIzzqcISWkkUUPhw3lVc-2" value="entry&lt;br&gt;入口" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="50" y="375" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zIzzqcISWkkUUPhw3lVc-3" value="&lt;h1&gt;webpack构建流程&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="238" y="30" width="351" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zIzzqcISWkkUUPhw3lVc-4" value="output&lt;br&gt;出口" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="650" y="375" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zIzzqcISWkkUUPhw3lVc-6" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="218" y="130" width="391" height="550" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
