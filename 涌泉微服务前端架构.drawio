@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-18T11:11:15.204Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="0bQxMA_79VYHquGGmnxZ" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-22T05:41:28.680Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="OisBp8l_y-gyznxVWd1x" version="22.1.21" type="github">
   <diagram name="第 1 页" id="PiVwh_6vKacbUExE4Yvk">
     <mxGraphModel dx="999" dy="1919" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -166,7 +166,7 @@
         <mxCell id="hFz3MheEO2sTYL0SJJGs-153" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=default;endArrow=classic;" edge="1" parent="1" source="hFz3MheEO2sTYL0SJJGs-128" target="hFz3MheEO2sTYL0SJJGs-151">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hFz3MheEO2sTYL0SJJGs-128" value="API GateWay" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;strokeColor=#d6b656;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fillColor=#fff2cc;" vertex="1" parent="1">
+        <mxCell id="hFz3MheEO2sTYL0SJJGs-128" value="istio网关" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;strokeColor=#d6b656;align=center;verticalAlign=middle;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fillColor=#fff2cc;" vertex="1" parent="1">
           <mxGeometry x="1188.5" y="770" width="620" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hFz3MheEO2sTYL0SJJGs-130" value="HTTP REST JSON" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Architects Daughter;fontColor=default;" vertex="1" parent="1">
