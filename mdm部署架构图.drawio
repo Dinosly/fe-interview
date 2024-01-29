@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-29T05:16:41.260Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="82KGZh5VYm1joLKj-ue0" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-29T05:25:18.212Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="xrhHdGJrpGNCtWn1_p8v" version="22.1.21" type="github">
   <diagram name="第 1 页" id="QTj4JmhRzzFchio2PINe">
     <mxGraphModel dx="1434" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -235,6 +235,9 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="82.81" y="680" as="sourcePoint" />
             <mxPoint x="640" y="680" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="680" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="x-KL9_7zVmia-TlLjwN--94" value="MDM 应用层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=default;fontStyle=1" vertex="1" parent="1">
@@ -284,6 +287,18 @@
         </mxCell>
         <mxCell id="x-KL9_7zVmia-TlLjwN--116" value="Oracle&lt;br&gt;10.252.76.41" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=default;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="460.94000000000005" y="792" width="102.69" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x-KL9_7zVmia-TlLjwN--117" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="680" as="sourcePoint" />
+            <mxPoint x="340" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x-KL9_7zVmia-TlLjwN--118" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="710" as="sourcePoint" />
+            <mxPoint x="350" y="680" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
