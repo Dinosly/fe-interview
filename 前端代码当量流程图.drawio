@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.6">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2261" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2022" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -81,23 +81,38 @@
         <mxCell id="RLsUfP5HrlK3afbZkdMg-24" value="&lt;br&gt;&lt;span style=&quot;text-align: left;&quot;&gt;1、文件类型&lt;/span&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2、文件修改内容&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;3、文件变更/删除行数&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="130" y="340" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="6cGkOFtFL013Ah8MGGCt-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6cGkOFtFL013Ah8MGGCt-2" target="6cGkOFtFL013Ah8MGGCt-15">
+        <mxCell id="173ixBQ196vPVz6Y6Z1v-0" value="Pool" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-420" y="780" width="1260" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="173ixBQ196vPVz6Y6Z1v-1" value="git" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="173ixBQ196vPVz6Y6Z1v-0">
+          <mxGeometry x="20" width="1240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="173ixBQ196vPVz6Y6Z1v-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="173ixBQ196vPVz6Y6Z1v-1" source="173ixBQ196vPVz6Y6Z1v-4" target="173ixBQ196vPVz6Y6Z1v-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6cGkOFtFL013Ah8MGGCt-2" value="获取当前git提交对应的变更内容" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;flipH=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="40" y="985" width="210" height="70" as="geometry" />
+        <mxCell id="173ixBQ196vPVz6Y6Z1v-4" value="从表tb_file_statistics、tb_project中根据文件后缀获取全部前端git工程信息" style="whiteSpace=wrap;html=1;" vertex="1" parent="173ixBQ196vPVz6Y6Z1v-1">
+          <mxGeometry x="60" y="30" width="150" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="6cGkOFtFL013Ah8MGGCt-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6cGkOFtFL013Ah8MGGCt-12" target="6cGkOFtFL013Ah8MGGCt-2">
+        <mxCell id="173ixBQ196vPVz6Y6Z1v-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="173ixBQ196vPVz6Y6Z1v-1" source="173ixBQ196vPVz6Y6Z1v-5" target="173ixBQ196vPVz6Y6Z1v-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6cGkOFtFL013Ah8MGGCt-12" value="START" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;flipH=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-100" y="990" width="100" height="60" as="geometry" />
+        <mxCell id="173ixBQ196vPVz6Y6Z1v-5" value="根据git信息&lt;div&gt;进行git pull&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="173ixBQ196vPVz6Y6Z1v-1">
+          <mxGeometry x="230" y="37.5" width="70" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="6cGkOFtFL013Ah8MGGCt-13" value="END" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;flipH=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="560" y="1300" width="100" height="60" as="geometry" />
+        <mxCell id="173ixBQ196vPVz6Y6Z1v-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="173ixBQ196vPVz6Y6Z1v-1" source="173ixBQ196vPVz6Y6Z1v-7" target="173ixBQ196vPVz6Y6Z1v-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6cGkOFtFL013Ah8MGGCt-15" value="" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="375" y="990" width="120" height="60" as="geometry" />
+        <mxCell id="173ixBQ196vPVz6Y6Z1v-7" value="从表code_value_frontend中查询当前项目最后一次提交对应的&lt;div&gt;since：commit_time || null ， from：commit_sha&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;||&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;null&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="173ixBQ196vPVz6Y6Z1v-1">
+          <mxGeometry x="320" y="31.25" width="170" height="67.5" as="geometry" />
+        </mxCell>
+        <mxCell id="173ixBQ196vPVz6Y6Z1v-9" value="git log 获取当前master分支上 指定区间内&lt;div&gt;&amp;nbsp;[--since: 库中存在的最新一次的commit_time || 不存在就从2024-01-01开始,∞）&lt;div&gt;&amp;nbsp;所有非merge的提交&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="173ixBQ196vPVz6Y6Z1v-1">
+          <mxGeometry x="510" y="32.5" width="240" height="67.5" as="geometry" />
+        </mxCell>
+        <mxCell id="173ixBQ196vPVz6Y6Z1v-2" value="AST解析计算得分" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="173ixBQ196vPVz6Y6Z1v-0">
+          <mxGeometry x="20" y="120" width="1240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="173ixBQ196vPVz6Y6Z1v-3" value="Lane 3" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="173ixBQ196vPVz6Y6Z1v-0">
+          <mxGeometry x="20" y="240" width="1240" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
